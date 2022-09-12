@@ -1,1 +1,32 @@
-/* CSS Style Sheet */
+body {
+  text-align: center;
+}
+
+input {
+  width: 50px;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+}
+button {
+  background-color: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-left: 22px;
+}
+
+hr {
+  width: 700px;
+}
+
+body {
+    background-color: a66f5d;
+    width: 600px;
+    margin: auto;
+    padding: 100px;
+
