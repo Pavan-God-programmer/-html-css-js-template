@@ -1,23 +1,29 @@
 body {
-  text-align: center;
+  padding: 20px;
+  background-color: rgb(160, 160, 160);
 }
 
 input {
   width: 50px;
+  margin: 3px;
+  background-color: rgb(150, 150, 150);
 }
 
 button:hover {
   background-color: rgb(255, 255, 255);
   color: black;
   cursor: pointer;
+  font-variant: small-caps;
 }
 button {
   background-color: rgb(60, 60, 60);
   color: rgb(255, 255, 255);
   font-family: "Courier New", Courier, monospace;
-  padding: 5px 20px;
+  padding: 5px 30px;
   border-radius: 20px;
-  margin-left: 22px;
+  margin-left: 20px;
+  font-variant: small-caps;
+  font-size: medium;
 }
 
 hr {
