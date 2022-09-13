@@ -1,6 +1,8 @@
 body {
-  padding: 20px;
   background-color: rgb(170, 170, 170);
+  width: 600px;
+  margin: auto;
+  padding: 100px;
 }
 
 input {
