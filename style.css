@@ -9,6 +9,7 @@ input {
   width: 50px;
   margin: 3px;
   background-color: rgb(170, 170, 170);
+  border-radius: 5px;
 }
 
 button:hover {
