@@ -5,6 +5,10 @@ body {
   padding: 100px;
 }
 
+.output {
+  font-size: 28px;
+}
+
 input {
   width: 50px;
   margin: 3px;

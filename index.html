@@ -6,7 +6,7 @@
     <script defer src="main.js"></script>
   </head>
   <body>
-    <h1>CS10 Grade Calculator</h1>
+    <div> <h1>CS10 Grade Calculator</h1>
   </body>
 </html>
 
@@ -23,20 +23,26 @@
 
 <h2>Enter Grades</h2>
 
-<p>Client-Side Scripting 1: <input id="q1" type="number" />%</p>
+<p>Client-Side Scripting 1: <input type="number" id="q1"/>%</p>
 
-<p>Structured Programming 1: <input id="q2" type="number" />%</p>
+<p>Structured Programming 1: <input type="number" id="q2"/>%</p>
 
-<p>Structured Programming 2: <input id="q3" type="number" />%</p>
+<p>Structured Programming 2: <input type="number" id="q3"/>%</p>
 
-<p>Client-Side Scripting 2: <input id="q4" type="number" />%</p>
+<p>Client-Side Scripting 2: <input type="number" id="q4"/>%</p>
 
-<p>Project A: <input id="q5" type="number" />%</p>
+<p>Project A: <input type="number" id="q5"/>%</p>
 
-<p><button type="button" id="btn1">Calculate CS10 Grade</button></p>
+<p><button id="btn">Calculate CS10 Grade</button>
+</p>
 
 <hr />
 
-<h2 id="result1">Final CS10 Grades:----%</h2>
-<div id="msg"></div>
+<h2 class="output">Final CS10 Grades: <span id="output">----</span>%</h2>
+
 <hr />
+</div>
+
+</body>
+</html>
+   
